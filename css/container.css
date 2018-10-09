@@ -1,0 +1,51 @@
+.container{
+	width: 1506px;
+	height: 766px;
+	background: rgb(248,251,252);
+}
+.menu{
+	height: 40px;
+	padding-top: 31px;
+	padding-bottom: 25px;
+	margin-left: 16px;
+}
+.menu .import-box{
+	height: 40px;
+}
+.import-box .upload_input{
+	height: inherit;
+    position: relative;
+    /*margin-right: 25px;*/
+}
+.import-box .upload_input input{
+
+    display: block;
+            width: 78px;
+            height: 40px;
+            opacity: 0;
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+
+}
+.import-box .upload_input a{
+	padding: 14px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+	text-decoration: none;
+        
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            text-align: center
+}
+.import-box .btn-import{
+	width: 127px;
+	height: 40px;
+	background: url('../img/daoru.png');
+}
